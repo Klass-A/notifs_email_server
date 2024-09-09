@@ -8,7 +8,7 @@ app.use(express.json());
 app.post('/notify', (req, res) => {
     const { appointment } = req.body;
 
-    fetch(`https://maker.ifttt.com/trigger/new_appt/with/key/YOUR_IFTTT_KEY`, {
+    fetch(`https://maker.ifttt.com/trigger/new_appt/with/key/nBi8iIhYzWjXuRxynB7KKb_V0RVa5g3omTLS8iaCUJq`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
